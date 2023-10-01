@@ -1,12 +1,12 @@
-# Good Accessibility Example
+# Bad Accessibility Example
 
 ## Description:
 
-A simple webpage that follows web accessibility best practices.
+A simple webpage that does not meet web accessibility requirements, intentionally! Visit https://github.com/LucasSilbernagel/good-accessibility-example to see the same project with the accessibility issues fixed.
 
 ## Live Link
 
-https://tubular-lollipop-4846c4.netlify.app/
+
 
 ## Tech Stack:
 
@@ -26,11 +26,11 @@ In order to run this application locally, you must have node installed on your c
 
 Once you have confirmed that node is installed, `cd` into a folder on your computer and run the following command to clone the repository:
 
-`git clone https://github.com/LucasSilbernagel/good-accessibility-example.git`
+`git clone https://github.com/LucasSilbernagel/bad-accessibility-example.git`
 
 Then `cd` into the project folder and open it in your code editor. For Visual Studio Code:
 
-`cd good-accessibility-example`
+`cd bad-accessibility-example`
 `code .`
 
 ### Install dependencies

@@ -17,7 +17,7 @@ export default function NavLink({
       href={url}
       target={openInNewTab ? '_blank' : undefined}
       rel={openInNewTab ? 'noopener noreferrer' : undefined}
-      className="text-gray-800 transition-colors duration-200 hover:text-slate-500 focus:border focus:border-slate-500 focus:text-slate-700"
+      className="text-gray-800 transition-colors duration-200 hover:text-slate-500"
       {...props}
     >
       {children}

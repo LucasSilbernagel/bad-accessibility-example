@@ -4,30 +4,41 @@ export default function App() {
   return (
     <>
       <Nav />
-      <main>
-        <header className="relative flex h-[350px] w-full items-center justify-center border-b border-gray-300">
+      <div>
+        <div className="relative flex h-[350px] w-full items-center justify-center border-b border-gray-300">
           <picture>
             <source
-              srcSet="https://placekitten.com/g/640/350"
-              media="(min-width: 640px)"
+              srcSet="https://picsum.photos/id/58/320/350"
+              media="(min-width: 320px)"
             />
             <source
-              srcSet="https://placekitten.com/g/768/350"
+              srcSet="https://picsum.photos/id/58/768/350"
               media="(min-width: 768px)"
             />
             <img
               className="absolute left-0 top-0 z-10 h-full w-full object-cover object-center sm:static"
-              src="https://placekitten.com/g/1280/350"
-              alt="A cute kitten"
+              src="https://picsum.photos/id/58/1280/350"
               loading="lazy"
             />
           </picture>
-        </header>
-        <section className="container mx-auto px-4 py-8 md:px-0">
-          <h1 className="text-3xl font-bold md:text-4xl">
-            This webpage is accessible!
+        </div>
+        <div className="container mx-auto px-4 py-8 md:px-0">
+          <h1 className="mb-4 text-3xl font-bold text-gray-600 md:text-4xl">
+            This webpage is not accessible!
           </h1>
-          <p className="mt-4 text-lg">
+          <h3 className="text-2xl font-bold text-gray-500 md:text-3xl">
+            Can you find all of the accessibility issues?{' '}
+            <a
+              href="https://github.com/LucasSilbernagel/good-accessibility-example"
+              target="_blank"
+              rel="noreferrer"
+              className="underline underline-offset-2 transition-all hover:underline-offset-4"
+            >
+              Here&apos;s the GitHub repository for the fixed version
+            </a>
+            .
+          </h3>
+          <p className="mt-4 text-lg text-gray-400">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe,
             nihil. Assumenda excepturi neque, nihil sed cum aperiam nesciunt
             provident non tempora vitae. Cupiditate nihil beatae consectetur
@@ -143,8 +154,8 @@ export default function App() {
             Eius molestias temporibus nihil debitis voluptatibus cumque? Ut odit
             magnam quae autem ratione dolore incidunt aut?
           </p>
-        </section>
-      </main>
+        </div>
+      </div>
     </>
   );
 }
