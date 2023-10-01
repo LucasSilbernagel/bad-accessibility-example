@@ -6,7 +6,7 @@ A simple webpage that does not meet web accessibility requirements, intentionall
 
 ## Live Link
 
-
+https://papaya-babka-3718ca.netlify.app/
 
 ## Tech Stack:
 
